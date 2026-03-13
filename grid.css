@@ -7,3 +7,19 @@
                          :side main;
                          :footer footer;
     }
+    #header{
+        grid-area: header;
+        color: brown;
+    }
+    #aside{
+        grid-area: aside;
+        color: chartreuse;
+    }
+    #main{
+        grid-area: main;
+        color: deepskyblue;
+    }
+    #footer{
+        grid-area: footer;
+        color: hotpink;
+    }
