@@ -3,8 +3,7 @@
     gap:10px ;
     width:100% ;
     background-color: lightseagreen;
-}
-.row{
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 3fr;
-}
+    grid-template-areas: aside header;
+                         :side main;
+                         :footer footer;
+    }
