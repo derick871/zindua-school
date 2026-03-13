@@ -9,3 +9,11 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+span{
+    color: brown;
+    text-decoration: underline;
+}
+h1,h2{
+    color: darkturquoise;
+    font-family: sans-serif;
+}
